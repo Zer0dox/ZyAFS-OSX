@@ -4,10 +4,10 @@
 
 ## Key Features:
 
-**Secure File Shredding:** ZyAFS-OSX provides a reliable way to securely shred individual files, ensuring that the data in the file is overwritten multiple times, making it nearly impossible to recover the original information.
-**Directory Shredding:** In addition to shredding individual files, ZyAFS-OSX supports shredding entire directories, making it convenient to securely delete a collection of files and folders.
-**Strong Cryptographic Algorithms:** The program employs strong cryptographic algorithms to overwrite data, guaranteeing the highest level of data security.
-**Optimized for SSDs:** ZyAFS-OSX supports the TRIM command, which enhances performance and ensures secure data deletion on Solid State Drives (SSDs).
+1. **Secure File Shredding:** ZyAFS-OSX provides a reliable way to securely shred individual files, ensuring that the data in the file is overwritten multiple times, making it nearly impossible to recover the original information.
+2. **Directory Shredding:** In addition to shredding individual files, ZyAFS-OSX supports shredding entire directories, making it convenient to securely delete a collection of files and folders.
+3. **Strong Cryptographic Algorithms:** The program employs strong cryptographic algorithms to overwrite data, guaranteeing the highest level of data security.
+4. **Optimized for SSDs:** ZyAFS-OSX supports the TRIM command, which enhances performance and ensures secure data deletion on Solid State Drives (SSDs).
 
 ## Installation:
 To use ZyAFS-OSX, you must have the OpenSSL library installed on your system. If you don't have it installed, follow these steps to install it:
