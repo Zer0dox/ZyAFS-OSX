@@ -32,7 +32,8 @@ After installing the OpenSSL library, compile the program using the following co
 Once the compilation is successful, you can use the program to securely shred files and directories. The program accepts two command-line arguments:
 
 **filename/directory:** The path to the file or directory you want to shred.
-**algorithm:** The algorithm to use for shredding. Supported algorithms are nullbytes, randomdata, dod5220, gutmann, and polymorphic.
+
+**algorithm:** The algorithm to use for shredding. Supported algorithms are **nullbytes**, **randomdata**, **dod5220**, **gutmann**, and **polymorphic**.
 
 **Example usage:**
 ```
