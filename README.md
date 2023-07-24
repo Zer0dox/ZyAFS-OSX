@@ -13,6 +13,7 @@
 To use ZyAFS-OSX, you must have the OpenSSL library installed on your system. If you don't have it installed, follow these steps to install it:
 
 **1. Open Terminal**
+
 **2. Install Homebrew (if not installed):**
 
 ```
