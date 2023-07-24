@@ -45,10 +45,10 @@ Once the compilation is successful, you can use the program to securely shred fi
 
 ZyAFS-OSX supports the following shredding algorithms:
 
-**Null Bytes:** Overwrites the file with null bytes, effectively making it unrecoverable.
-**Random Data:** Fills the file with random data, ensuring data security.
-**DoD 5220.22-M:** Uses the US Department of Defense 3-pass standard for data sanitization, providing a high level of data security.
-**Gutmann (35-pass):** Utilizes Gutmann's 35-pass algorithm for extreme data overwrite, providing an extremely high level of data security.
-**Polymorphic 12-pass:** Implements a polymorphic algorithm with a strong cryptographic stream cipher and dynamic initialization vectors (IVs) for enhanced data security.
+1. **Null Bytes:** Overwrites the file with null bytes, effectively making it unrecoverable.
+2. **Random Data:** Fills the file with random data, ensuring data security.
+3. **DoD 5220.22-M:** Uses the US Department of Defense 3-pass standard for data sanitization, providing a high level of data security.
+4. **Gutmann (35-pass):** Utilizes Gutmann's 35-pass algorithm for extreme data overwrite, providing an extremely high level of data security.
+5. **Polymorphic 12-pass:** Implements a polymorphic algorithm with a strong cryptographic stream cipher and dynamic initialization vectors (IVs) for enhanced data security.
 
 **Note:** Before using ZyAFS-OSX, ensure you have the necessary permissions to shred the specified files and directories, as shredding is a permanent action and data cannot be recovered once overwritten.
