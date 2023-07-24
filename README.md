@@ -1,24 +1,29 @@
-#ZyAFS-OSX: Advanced Forensic Shredder for MacOS
+# ZyAFS-OSX: Advanced Forensic Shredder for MacOS
 
 **ZyAFS-OSX** is an advanced forensic shredder designed for MacOS, offering a secure and permanent method to delete sensitive files and directories from your system. The program implements various data shredding algorithms, ensuring that data is effectively overwritten and made unrecoverable.
 
-**Key Features:**
+## Key Features:
 
-Secure File Shredding: ZyAFS-OSX provides a reliable way to securely shred individual files, ensuring that the data in the file is overwritten multiple times, making it nearly impossible to recover the original information.
-Directory Shredding: In addition to shredding individual files, ZyAFS-OSX supports shredding entire directories, making it convenient to securely delete a collection of files and folders.
-Strong Cryptographic Algorithms: The program employs strong cryptographic algorithms to overwrite data, guaranteeing the highest level of data security.
-Optimized for SSDs: ZyAFS-OSX supports the TRIM command, which enhances performance and ensures secure data deletion on Solid State Drives (SSDs).
-Installation:
+**Secure File Shredding:** ZyAFS-OSX provides a reliable way to securely shred individual files, ensuring that the data in the file is overwritten multiple times, making it nearly impossible to recover the original information.
+**Directory Shredding:** In addition to shredding individual files, ZyAFS-OSX supports shredding entire directories, making it convenient to securely delete a collection of files and folders.
+**Strong Cryptographic Algorithms:** The program employs strong cryptographic algorithms to overwrite data, guaranteeing the highest level of data security.
+**Optimized for SSDs:** ZyAFS-OSX supports the TRIM command, which enhances performance and ensures secure data deletion on Solid State Drives (SSDs).
 
+## Installation:
 To use ZyAFS-OSX, you must have the OpenSSL library installed on your system. If you don't have it installed, follow these steps to install it:
 
-1. Open Terminal.
-2. Install Homebrew (if not installed):
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
-3. Install OpenSSL using Homebrew:
+**1. Open Terminal**
+**2. Install Homebrew (if not installed):**
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+**3. Install OpenSSL using Homebrew:**
+
 ```brew install openssl```
 
-**Usage:**
+## Usage:
 
 After installing the OpenSSL library, compile the program using the following command:
 
@@ -35,7 +40,7 @@ Once the compilation is successful, you can use the program to securely shred fi
 ./shredder folder_to_shred gutmann
 ```
 
-#Supported Algorithms:
+## Supported Algorithms:
 
 ZyAFS-OSX supports the following shredding algorithms:
 
